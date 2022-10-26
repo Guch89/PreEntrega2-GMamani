@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.fondonav{
+    background-color: rgb(251, 197, 4);
+}
+
+.formatoimagenlogo{
+    border-radius: 15px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.imagenppal{
+    width: 100%;
+}
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 449px) {
+    .contenedor{
+        font-size: 11px;
+    }
+}
+
+.parte2{
+    text-align: center;
+}
+
+.fcalidad{
+    width: 200px;
+    height: 200px;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.fh2{
+    width: 150px;
+    height: 150px;
+    margin-left: 65px;
+}
+
+.fh3{
+    width: 220px ;
+    height: 150px;
+    margin-left: 30px;
+}
+
+.box{
+text-align: center;
+}
+
+.parte3{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "im3 d3";
+}
+
+.div3{
+    align-items: center;
+    grid-area: d3;
+}
+
+.imagen3{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10px;
+    grid-area: im3;
+}
+
+.titulo3{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.parrafo3{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.parrafo31 {
+    grid-area: p31;  
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 796px) {
+    .parte3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.div4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.imgc{
+    height: 190px;
+}
+
+.h4{
+    text-align: center;
+}
+
+.box4{
+    text-align: center;
+}
+
+.hf{
+    text-align: center;
+}
+
+.ulfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.lifi{
+    list-style: none;
+}
+
+.iconoredes img{
+    width: 20px;
+    height: 20px;
+}
+
+.iconoredes{
+    list-style: none;
+}
+
+.divf{
+    width: 150px;
+}
