@@ -20,6 +20,7 @@
 
 .imagenppal{
     width: 100%;
+    filter:blur(4px)
 }
 
 .centrado{
@@ -34,6 +35,29 @@
     .contenedor{
         font-size: 11px;
     }
+}
+
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.img2{
+    width: 70px;
+    height: 70px;
+    margin-left: 100px;
+}
+
+.texto2{
+    text-align: center;
 }
 
 .parte2{
@@ -154,4 +178,9 @@ text-align: center;
 
 .divf{
     width: 150px;
+}
+
+.mapa{
+    width:75% ;
+    margin-left: 150px;
 }
