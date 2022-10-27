@@ -3,12 +3,20 @@
     padding: 0%;
 }
 
+/* Barra de NAV */
 .fondonav{
     background-color: rgb(251, 197, 4);
+    width: 100%;
 }
 
 .formatoimagenlogo{
     border-radius: 15px;
+}
+
+/* MAIN */
+.imagenppal{
+    width: 100%;
+    filter:blur(4px)
 }
 
 .contenedor{
@@ -16,11 +24,6 @@
     display: inline-block;
     text-align: center;
     width: 100%;
-}
-
-.imagenppal{
-    width: 100%;
-    filter:blur(4px)
 }
 
 .centrado{
@@ -33,10 +36,156 @@
 
 @media screen and (max-width: 449px) {
     .contenedor{
-        font-size: 11px;
+        font-size: 12px;
     }
 }
 
+/* PARTE 2 */
+.parte2{
+    text-align: center;
+}
+
+.contenedor2{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.box{
+    text-align: center;
+    }
+
+.fh2{
+    width: 150px;
+    height: 150px;
+    margin-left: 65px;
+}
+
+.fh3{
+    width: 220px ;
+    height: 150px;
+    margin-left: 30px;
+}
+
+/* PARTE 3 */
+.parte3{
+    width: 100%;
+}
+
+.parte3{
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "im3 d3";
+    width: 100%;
+}
+
+.imagen3{
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 10px;
+    grid-area: im3;
+}
+
+.div3{
+    align-items: center;
+    grid-area: d3;
+}
+
+.titulo3{
+    margin-left: 20px;
+    font-size: 40px;
+}
+
+.parrafo3{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.parrafo31 { 
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .parte3{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+/* PARTE 4 */
+
+.contenedor4{
+    width: 100%;
+}
+
+.h4{
+    text-align: center;
+}
+
+.div4{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box4{
+    text-align: center;
+}
+
+.imgc{
+    height: 190px;
+}
+
+/* PARTE 5 */
+
+/* FOOTER */
+.hf{
+    text-align: center;
+}
+
+.ulfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.divf{
+    width: 150px;
+}
+
+.lifi{
+    list-style: none;
+}
+
+.iconoredes img{
+    width: 20px;
+    height: 20px;
+}
+
+.iconoredes{
+    list-style: none;
+}
+
+.divf{
+    width: 150px;
+}
+
+.divmapa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    width: 75%;
+}
+
+/* CONSTRUCCION HTML */
 .box1{
     display: flex;
     flex-wrap: wrap;
@@ -60,130 +209,20 @@
     text-align: center;
 }
 
-.parte2{
-    text-align: center;
+@media screen and (max-width: 685px) {
+    .chp1{
+    font-size: 17px;
+    }        
 }
 
-.fcalidad{
-    width: 200px;
-    height: 200px;
-}
-
-.contenedor2{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.fh2{
-    width: 150px;
-    height: 150px;
-    margin-left: 65px;
-}
-
-.fh3{
-    width: 220px ;
-    height: 150px;
-    margin-left: 30px;
-}
-
-.box{
-text-align: center;
-}
-
-.parte3{
-    display: grid;
-    grid-template-columns: 1fr, 2fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "im3 d3";
-}
-
-.div3{
-    align-items: center;
-    grid-area: d3;
-}
-
-.imagen3{
-    width: 300px;
-    border-radius: 10px;
-    margin-left: 10px;
-    grid-area: im3;
-}
-
-.titulo3{
-    margin-left: 20px;
-    font-size: 40px;
-}
-
-.parrafo3{
-    margin-left: 20px;
-    margin-right: 20px;
-    font-size: 20px;
-}
-
-.parrafo31 {
-    grid-area: p31;  
-    margin-left: 20px;
-    margin-right: 20px;
-}
-
-@media screen and (max-width: 796px) {
-    .parte3{
-        display: flex;
-        flex-wrap: wrap;
+@media screen and (max-width: 653px) {
+    .chp1{
+    font-size: 13px;
     }
 }
 
-.div4{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.imgc{
-    height: 190px;
-}
-
-.h4{
-    text-align: center;
-}
-
-.box4{
-    text-align: center;
-}
-
-.hf{
-    text-align: center;
-}
-
-.ulfooter{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.lifi{
-    list-style: none;
-}
-
-.iconoredes img{
-    width: 20px;
-    height: 20px;
-}
-
-.iconoredes{
-    list-style: none;
-}
-
-.divf{
-    width: 150px;
-}
-
-.divmapa{
-    width: 100%;
-}
-
-.mapa{
-    width: 100%;
+@media screen and (max-width: 500px) {
+    .chp1{
+    font-size: 10px;
+    }
 }
